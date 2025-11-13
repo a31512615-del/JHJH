@@ -1,0 +1,7 @@
+# Core dependencies
+discord.py
+Flask
+
+# Fix for ModuleNotFoundError: No module named 'audioop' on modern Python versions
+# This is often a dependency of discord.py or related libraries (like pydub, which is not explicitly listed but might be used)
+audioop-lts
